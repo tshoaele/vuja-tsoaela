@@ -1,5 +1,11 @@
 # Vuja Tsoaela creative studio
 
+## Current design
+
+The approved multidisciplinary design has a male Vuja avatar in the header and three equally weighted branches: Art & Prompts, Apps & Planners, and Poetry & Writing. The Vault contains ten verified Gumroad products. Product prices and checkout remain on Gumroad. Product covers load from the published Gumroad image URLs. The Journal links to three real posts on tshoaele.wordpress.com. Article introductions are short summaries, not copied blog posts. About wording remains unchanged. The image carousel is deferred.
+
+Informal Blesser is correctly presented as a calculator under Apps & Planners. The illustrative mockup's fictional story label and product covers are not used. The original woman from the earlier hero appears under Poetry & Writing.
+
 A standalone static website. No build step, account, API key, paid service or external font is required. The revised design follows the supplied gritty anime studio reference, with original generated illustrations and CSS artwork. No analytics or storage is used.
 
 ## Preview

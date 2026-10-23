@@ -1,5 +1,9 @@
 # Original illustration assets
 
+## assets/vuja-hero.png
+
+Generated with the built-in image tool from the approved holistic preview and user-supplied Vuja avatar. Prompt: Standalone wide hero artwork, no UI or lettering. Adult Black man matching the avatar's beanie, trimmed beard, geometric face and neck tattoos, dark jacket and crimson accents. Right-aligned figure against a Johannesburg-inspired skyline, warm cream negative space for live type, crimson sun disc, tactile graphic-novel ink. The website uses live typography over this asset.
+
 Generated with the built-in image generation tool for this project. The supplied screenshot guided the site layout and mood; it is not embedded as a website screenshot. Neither asset is asserted to be existing Ghost Haven canon.
 
 ## assets/studio-hero.png

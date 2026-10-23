@@ -1,13 +1,336 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#151513"><meta name="description" content="Vuja Tsoaela. A creative studio for stories, visual experiments and useful AI tools."><title>VUJA TSOAELA | Independent creative studio</title><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="editorial.css"><script src="app.js" defer></script></head>
-<body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="#home" aria-label="Vuja Tsoaela home">VUJA<br>TSOAELA<span class="brand-dot">●</span></a><button class="menu" aria-expanded="false" aria-controls="nav">Menu +</button><nav id="nav" aria-label="Main navigation"><a href="#home">Home</a><a href="#work">Work</a><a href="#work">The Vault</a><a href="#ghost">Archives</a><a href="#journal">Journal</a><a href="#about">About</a></nav><p class="location">Johannesburg<br>South Africa<br><span>Creative practice</span></p></header>
-<main id="main"><section id="home" class="hero"><div class="hero-image" role="img" aria-label="Original anime-inspired Black woman with locs and a charcoal tactical jacket, set against a dark crimson urban backdrop"></div><div class="hero-content"><p class="eyebrow">An independent<br>creative practice.</p><h1>I MAKE<br>THINGS THAT<br>PROBABLY<br><span>SHOULD NOT</span><br>EXIST.</h1><p>Characters. Stories. Digital experiments.<br>Occasionally something useful.</p><a class="explore" href="#work">Explore <span>⟶</span></a></div><span class="hero-number" aria-hidden="true">01<br><br><b>•</b><br>•<br>•</span><span class="hero-signature">Vuja Tsoaela</span></section><section class="front-grid" aria-label="Explore the studio"><a class="front-vault" href="#work"><div class="vault-portrait" aria-hidden="true"></div><div><p class="eyebrow">The Vault</p><h2>AI Prompts<br>for Better<br>Imaginations.</h2><p>Original characters, cinematic scenes and worlds waiting to happen.</p><span class="explore">Browse collections ⟶</span></div></a><a class="front-lab" href="#vault"><p class="eyebrow">The Creation Lab</p><h2>Build<br>Your Vision.</h2><p>Give an idea a shape.<br>Make a prompt of your own.</p><span class="explore">Open the lab ⟶</span><span class="lab-mark" aria-hidden="true">[ / ]</span></a><a class="front-ghost" href="#ghost"><p class="eyebrow">Featured universe</p><h2>GHOST<br>HAVEN</h2><div><p>A world in progress.</p><span class="explore">Enter the archives ⟶</span></div></a><a class="front-journal" href="#journal"><p class="eyebrow">The Unfiltered Mind</p><h2>Thoughts,<br>Observations<br>and Occasional<br>Rants.</h2><p>Creativity, technology and the strange reality we all share.</p><span class="explore">Read the journal ⟶</span></a></section><section id="work" class="section"><div class="section-head"><p class="eyebrow">01 / The Vault</p><h2>Collected.<br>Not ordinary.</h2><p>Browse the studio shelves.<br>Explore the sample collections below.</p></div><div class="filters" role="group" aria-label="Filter collection"><button class="active" data-filter="all" aria-pressed="true">All work <sup>04</sup></button><button data-filter="visual" aria-pressed="false">Visual</button><button data-filter="tools" aria-pressed="false">Tools</button><button data-filter="stories" aria-pressed="false">Stories</button><button data-filter="writing" aria-pressed="false">Writing</button></div><div class="collection">
-<a class="project" data-category="visual" href="#visual-study"><div class="cover cover-visual"><span class="little">VISUAL STUDY / 001</span><strong>FORM<br>AFTER<br>FORM.</strong><span class="disc"></span></div><div class="project-title"><h3>Between worlds</h3><span>↗</span></div><p>Original abstract study / Visual</p></a>
-<a class="project" data-category="tools" href="#vault"><div class="cover cover-tools"><span class="little">THE STUDIO TOOLBOX</span><strong>[ A better<br>starting<br>point. ]</strong><span class="little">PROMPT VAULT →</span></div><div class="project-title"><h3>The prompt vault</h3><span>↗</span></div><p>Interactive tool / AI & process</p></a>
-<a class="project" data-category="stories" href="#ghost"><div class="cover cover-ghost"><span class="little">AN ORIGINAL STORY WORLD</span><div class="door"></div><strong>GHOST<br>HAVEN</strong></div><div class="project-title"><h3>Ghost Haven</h3><span>↗</span></div><p>Sample opening / Fiction</p></a>
-<a class="project" data-category="writing" href="#journal"><div class="cover cover-writing"><span class="little">NOTES FROM THE STUDIO</span><strong>Leave<br>room for<br><i>the strange.</i></strong><span class="little">WORDS / 001</span></div><div class="project-title"><h3>Margins & possibilities</h3><span>↗</span></div><p>Sample journal / Writing</p></a></div><p class="small-note">A working studio preview. Collection concepts are samples, not products for sale.</p><details id="visual-study"><summary>Inside the visual study: Between worlds</summary><p>A circle, a threshold, a field of black. This original browser-made composition explores the space between a place and the feeling of a place. Built with geometry, without stock or third-party character art.</p></details></section>
-<section id="vault" class="section vault"><div class="section-head"><p class="eyebrow">02 / The Creation Lab</p><h2>Build<br>Your <i>Vision.</i></h2><p>Start with a direction. Add your own details.<br>Take the result into your next conversation.</p></div><div class="builder"><form id="prompt-form"><div class="field-head"><h3>Build a starting point</h3><span>01 → 03</span></div><label for="template">01 / What are you making?</label><select id="template"><option value="story">A story scene</option><option value="character">An original character</option><option value="visual">A visual concept</option><option value="writing">A piece of writing</option><option value="plan">A creative project plan</option></select><label for="idea">02 / Your idea</label><textarea id="idea" rows="4" placeholder="A town where every abandoned house remembers its last resident…" maxlength="2000"></textarea><label for="tone">03 / Set the tone</label><select id="tone"><option>Atmospheric and restrained</option><option>Bold and unexpected</option><option>Warm and conversational</option><option>Clear and practical</option></select><div class="character-fields"><label for="archetype">Character archetype</label><select id="archetype"><option>Reluctant guardian</option><option>Wandering inventor</option><option>Exiled diplomat</option><option>Urban investigator</option></select><label for="aesthetic">Visual aesthetic</label><select id="aesthetic"><option>Textured ink and cinematic anime</option><option>Sunlit painterly fantasy</option><option>Retro science fiction</option><option>Minimal editorial portrait</option></select><label for="ability">Ability or defining detail</label><input id="ability" maxlength="160" placeholder="Can hear the memories of abandoned places"><label for="composition">Composition</label><select id="composition"><option>Close portrait with strong eye contact</option><option>Full figure in an expansive environment</option><option>Dynamic three-quarter action pose</option></select></div><button class="primary" type="submit">Build my prompt <span>↗</span></button></form><div class="prompt-output"><div class="field-head"><span class="eyebrow">Your prompt / editable</span><span aria-hidden="true">✳</span></div><label class="sr-only" for="result">Generated prompt</label><textarea id="result" rows="12" spellcheck="false"></textarea><div class="output-actions"><button id="copy" class="light-button">Copy prompt ↗</button><a id="chatgpt" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">Open ChatGPT ↗</a></div><p class="small-note">Opens a new tab. Your prompt is included in the link. Review it before sharing. No AI runs on this website.</p><p id="status" role="status" aria-live="polite"></p></div></div><div class="presets" role="group" aria-label="Try a prompt preset"><span class="eyebrow">Try a seed →</span><button data-seed="story">The town that remembers</button><button data-seed="visual">An impossible doorway</button><button data-seed="writing">Make space to experiment</button></div></section>
-<section id="ghost" class="ghost section"><div class="ghost-art" role="img" aria-label="Original atmospheric concept art of a solitary figure in a rain-soaked fictional city"><span class="ghost-label">SOME PLACES<br>KEEP YOU.</span></div><div class="ghost-copy"><p class="eyebrow">03 / The Archives</p><h2>GHOST<br><i>HAVEN.</i></h2><p class="lead">Every town has its ghosts.<br>This one leaves the door open.</p><p>Step into a story space built around memory, mystery and the things a place refuses to forget.</p><div class="archive-actions"><button class="light-button" data-read="ghost">Story fragment ↗</button><button class="light-button" data-read="dossier">Character dossier ↗</button></div><p class="small-note">Illustrative story excerpt created for this website. Not established Ghost Haven canon.</p></div></section>
-<section id="journal" class="section journal"><div class="section-head"><p class="eyebrow">04 / The Unfiltered Mind</p><h2>Notes from<br>the <i>margins.</i></h2><p>Thoughts on making things.<br>And making room for them.</p></div><button class="journal-row" data-read="strange"><span>01 / Creative practice</span><h3>Leave room for the strange.</h3><span>Read sample ↗</span></button><button class="journal-row" data-read="tools"><span>02 / Tools & process</span><h3>A tool is a beginning.</h3><span>Read sample ↗</span></button><p class="small-note">Sample editorial copy for the website, ready to replace with your published writing.</p></section>
-<section id="about" class="section about"><p class="eyebrow">05 / Behind the studio</p><div><h2>One name.<br>Many ways<br>to <i>make.</i></h2><p class="lead">Vuja Tsoaela is the signature connecting this studio's visual experiments, writing, story worlds and useful creative tools.</p><p>Follow a thread. Try a prompt. Read a little. This space is built for curiosity.</p><a class="text-link" href="#work">Explore the collection ↗</a></div><div class="signature" aria-label="Vuja Tsoaela signature">Vuja<br>Tsoaela<span>✳</span></div></section></main>
-<footer><a class="brand" href="#home">VUJA<br>TSOAELA</a><p>Stories. Systems. Experiments.<br><span>© <span id="year">2026</span> Vuja Tsoaela</span></p><a href="#home">Back to top ↑</a></footer><dialog id="reader" aria-labelledby="reader-title"><button id="close-reader" aria-label="Close reading view">Close ×</button><p class="eyebrow" id="reader-category"></p><h2 id="reader-title"></h2><div id="reader-body"></div><p class="reader-signature">Vuja Tsoaela</p></dialog><noscript><p class="no-js">Enable JavaScript for the prompt builder, filters and reading view. The studio navigation and visual study work without it.</p></noscript></body></html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#151513">
+<meta name="description" content="Vuja Tsoaela. A creative studio for stories, visual experiments and useful AI tools.">
+<title>VUJA TSOAELA | Independent creative studio</title>
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="editorial.css">
+<script src="app.js" defer>
+</script>
+<style id="product-styles">.product-cover{height:260px;position:relative;background:#d6cdbc;overflow:hidden}.product-cover img{width:100%;height:100%;object-fit:contain;display:block;transition:transform .25s}.product-cover-link:hover img{transform:scale(1.025)}.product-volume{position:absolute;bottom:0;left:0;background:#101411;color:#e8e1d5;padding:9px 12px;font:10px monospace;letter-spacing:1px}.product-card .product-count{color:#9e312d;font:11px monospace;text-transform:uppercase;letter-spacing:1px}.product-card .product-description{font-size:13px;line-height:1.7;color:#49463e;min-height:110px}.product-card details{font-size:12px;margin-top:16px;padding-top:12px}.product-card details p{font-size:12px}.product-link{display:inline-block;margin-top:22px;padding-bottom:8px;border-bottom:1px solid #aa302f;font-size:12px}.product-link:hover{color:#aa302f}.store-footer{display:flex;gap:25px;justify-content:space-between;align-items:baseline;margin-top:20px}.store-footer .small-note{max-width:390px}@media(max-width:1000px){.product-cover{height:300px}.product-card .product-description{min-height:75px}}@media(max-width:650px){#work .collection{grid-template-columns:1fr}.product-cover{height:300px}.product-card .product-description{min-height:0}.product-card{padding-bottom:25px}.store-footer{display:block}}</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+<a class="brand" href="#home" aria-label="Vuja Tsoaela home">VUJA<br>TSOAELA<span class="brand-dot">●</span>
+</a>
+<button class="menu" aria-expanded="false" aria-controls="nav">Menu +</button>
+<nav id="nav" aria-label="Main navigation">
+<a href="#home">Home</a>
+<a href="#work">Work</a>
+<a href="#work">The Vault</a>
+<a href="#ghost">Archives</a>
+<a href="#journal">Journal</a>
+<a href="#about">About</a>
+</nav>
+<p class="location">Johannesburg<br>South Africa<br>
+<span>Creative practice</span>
+</p>
+</header>
+<main id="main">
+<section id="home" class="hero">
+<div class="hero-image" role="img" aria-label="Original anime-inspired Black woman with locs and a charcoal tactical jacket, set against a dark crimson urban backdrop">
+</div>
+<div class="hero-content">
+<p class="eyebrow">An independent<br>creative practice.</p>
+<h1>I MAKE<br>THINGS THAT<br>PROBABLY<br>
+<span>SHOULD NOT</span>
+<br>EXIST.</h1>
+<p>Characters. Stories. Digital experiments.<br>Occasionally something useful.</p>
+<a class="explore" href="#work">Explore <span>⟶</span>
+</a>
+</div>
+<span class="hero-number" aria-hidden="true">01<br>
+<br>
+<b>•</b>
+<br>•<br>•</span>
+<span class="hero-signature">Vuja Tsoaela</span>
+</section>
+<section class="front-grid" aria-label="Explore the studio">
+<a class="front-vault" href="#work">
+<div class="vault-portrait" aria-hidden="true">
+</div>
+<div>
+<p class="eyebrow">The Vault</p>
+<h2>AI Prompts<br>for Better<br>Imaginations.</h2>
+<p>Anime characters and cinematic scenes. Browse the published prompt collections.</p>
+<span class="explore">Browse collections ⟶</span>
+</div>
+</a>
+<a class="front-lab" href="#vault">
+<p class="eyebrow">The Creation Lab</p>
+<h2>Build<br>Your Vision.</h2>
+<p>Give an idea a shape.<br>Make a prompt of your own.</p>
+<span class="explore">Open the lab ⟶</span>
+<span class="lab-mark" aria-hidden="true">[ / ]</span>
+</a>
+<a class="front-ghost" href="#ghost">
+<p class="eyebrow">Featured universe</p>
+<h2>GHOST<br>HAVEN</h2>
+<div>
+<p>A world in progress.</p>
+<span class="explore">Enter the archives ⟶</span>
+</div>
+</a>
+<a class="front-journal" href="#journal">
+<p class="eyebrow">The Unfiltered Mind</p>
+<h2>Thoughts,<br>Observations<br>and Occasional<br>Rants.</h2>
+<p>Creativity, technology and the strange reality we all share.</p>
+<span class="explore">Read the journal ⟶</span>
+</a>
+</section>
+<section id="work" class="section">
+<div class="section-head">
+<p class="eyebrow">01 / The Vault</p>
+<h2>On the<br>
+<i>studio shelf.</i>
+</h2>
+<p>Prompt collections by Vuja Tsoaela.<br>Take a look. Find a starting point.</p>
+</div>
+<div class="filters" role="group" aria-label="Filter collection">
+<button class="active" data-filter="all" aria-pressed="true">All collections <sup>04</sup>
+</button>
+<button data-filter="anime" aria-pressed="false">Anime characters</button>
+<button data-filter="cinematic" aria-pressed="false">Cinematic scenes</button>
+</div>
+<div class="collection">
+<article class="project product-card" data-category="anime">
+<a class="product-cover-link" href="https://vujatsoaela.gumroad.com/l/anime-prompts-vol1" target="_blank" rel="noopener noreferrer" aria-label="View Anime Character Prompts on Gumroad (opens in a new tab)">
+<div class="product-cover">
+<img src="https://public-files.gumroad.com/weaf3kat44dgmgqumph0kqp7lhtr" alt="Anime Character Prompts published collection cover" loading="lazy" decoding="async">
+<span class="product-volume">VOL. 01 / FREE</span>
+</div>
+</a>
+<div class="project-title">
+<h3>Anime Character Prompts</h3>
+<span aria-hidden="true">↗</span>
+</div>
+<p class="product-count">40 prompts</p>
+<p class="product-description">Character prompts across 40 anime series. A free starting point for making a character with your own personality and style.</p>
+<details>
+<summary>What's included</summary>
+<p>HTML with Copy Prompt buttons, an Excel prompt list, a PDF guide and original files. A short Start Here guide is included.</p>
+</details>
+<a class="product-link" href="https://vujatsoaela.gumroad.com/l/anime-prompts-vol1" target="_blank" rel="noopener noreferrer">Get the free pack on Gumroad ↗</a>
+</article>
+<article class="project product-card" data-category="anime">
+<a class="product-cover-link" href="https://vujatsoaela.gumroad.com/l/anime-prompts-vol2" target="_blank" rel="noopener noreferrer" aria-label="View Female Anime Leads on Gumroad (opens in a new tab)">
+<div class="product-cover">
+<img src="https://public-files.gumroad.com/i2sh2112fdxuhdqfut9j2zcydl4f" alt="Female Anime Leads published collection cover" loading="lazy" decoding="async">
+<span class="product-volume">VOL. 02</span>
+</div>
+</a>
+<div class="project-title">
+<h3>Female Anime Leads</h3>
+<span aria-hidden="true">↗</span>
+</div>
+<p class="product-count">100 prompts</p>
+<p class="product-description">Female protagonists across anime worlds, including 10 original-universe prompts. Build a lead from your own ideas.</p>
+<details>
+<summary>What's included</summary>
+<p>HTML with Copy Prompt buttons, an Excel prompt list, a PDF guide and original files. A short Start Here guide is included.</p>
+</details>
+<a class="product-link" href="https://vujatsoaela.gumroad.com/l/anime-prompts-vol2" target="_blank" rel="noopener noreferrer">View collection on Gumroad ↗</a>
+</article>
+<article class="project product-card" data-category="anime">
+<a class="product-cover-link" href="https://vujatsoaela.gumroad.com/l/anime-prompts-vol3" target="_blank" rel="noopener noreferrer" aria-label="View Black African Protagonists on Gumroad (opens in a new tab)">
+<div class="product-cover">
+<img src="https://public-files.gumroad.com/6h36hylby1axfc67ln3y2049v33e" alt="Black African Protagonists published collection cover" loading="lazy" decoding="async">
+<span class="product-volume">VOL. 03</span>
+</div>
+</a>
+<div class="project-title">
+<h3>Black African Protagonists</h3>
+<span aria-hidden="true">↗</span>
+</div>
+<p class="product-count">100 prompts</p>
+<p class="product-description">Black African anime leads, with heritage woven into powers, clothing and stories. Explore existing worlds and original characters.</p>
+<details>
+<summary>What's included</summary>
+<p>HTML with Copy Prompt buttons, an Excel prompt list, a PDF guide and original files. A short Start Here guide is included.</p>
+</details>
+<a class="product-link" href="https://vujatsoaela.gumroad.com/l/anime-prompts-vol3" target="_blank" rel="noopener noreferrer">View collection on Gumroad ↗</a>
+</article>
+<article class="project product-card" data-category="cinematic">
+<a class="product-cover-link" href="https://vujatsoaela.gumroad.com/l/rugjqm" target="_blank" rel="noopener noreferrer" aria-label="View Most Wanted on Gumroad (opens in a new tab)">
+<div class="product-cover">
+<img src="https://public-files.gumroad.com/4llz4al7y374wna8wkg9fqrn4qe8" alt="Most Wanted published collection cover" loading="lazy" decoding="async">
+<span class="product-volume">PROMPT PACK / VOL. 01</span>
+</div>
+</a>
+<div class="project-title">
+<h3>Most Wanted</h3>
+<span aria-hidden="true">↗</span>
+</div>
+<p class="product-count">15 prompts + a bonus</p>
+<p class="product-description">Cinematic street-racing scenes with racers, cars, outfits and dramatic light. Change the details to make the scene your own.</p>
+<details>
+<summary>What's included</summary>
+<p>HTML with Copy Prompt buttons, an Excel prompt list, a PDF guide and original files. A short Start Here guide is included.</p>
+</details>
+<a class="product-link" href="https://vujatsoaela.gumroad.com/l/rugjqm" target="_blank" rel="noopener noreferrer">View collection on Gumroad ↗</a>
+</article>
+</div>
+<div class="store-footer">
+<a class="text-link" href="https://vujatsoaela.gumroad.com/" target="_blank" rel="noopener noreferrer">Browse everything on Gumroad ↗</a>
+<p class="small-note">Product details, current prices and checkout are on Gumroad. Links open in a new tab.</p>
+</div>
+</section>
+<section id="vault" class="section vault">
+<div class="section-head">
+<p class="eyebrow">02 / The Creation Lab</p>
+<h2>Build<br>Your <i>Vision.</i>
+</h2>
+<p>Start with a direction. Add your own details.<br>Take the result into your next conversation.</p>
+</div>
+<div class="builder">
+<form id="prompt-form">
+<div class="field-head">
+<h3>Build a starting point</h3>
+<span>01 → 03</span>
+</div>
+<label for="template">01 / What are you making?</label>
+<select id="template">
+<option value="story">A story scene</option>
+<option value="character">An original character</option>
+<option value="visual">A visual concept</option>
+<option value="writing">A piece of writing</option>
+<option value="plan">A creative project plan</option>
+</select>
+<label for="idea">02 / Your idea</label>
+<textarea id="idea" rows="4" placeholder="A town where every abandoned house remembers its last resident…" maxlength="2000">
+</textarea>
+<label for="tone">03 / Set the tone</label>
+<select id="tone">
+<option>Atmospheric and restrained</option>
+<option>Bold and unexpected</option>
+<option>Warm and conversational</option>
+<option>Clear and practical</option>
+</select>
+<div class="character-fields">
+<label for="archetype">Character archetype</label>
+<select id="archetype">
+<option>Reluctant guardian</option>
+<option>Wandering inventor</option>
+<option>Exiled diplomat</option>
+<option>Urban investigator</option>
+</select>
+<label for="aesthetic">Visual aesthetic</label>
+<select id="aesthetic">
+<option>Textured ink and cinematic anime</option>
+<option>Sunlit painterly fantasy</option>
+<option>Retro science fiction</option>
+<option>Minimal editorial portrait</option>
+</select>
+<label for="ability">Ability or defining detail</label>
+<input id="ability" maxlength="160" placeholder="Can hear the memories of abandoned places">
+<label for="composition">Composition</label>
+<select id="composition">
+<option>Close portrait with strong eye contact</option>
+<option>Full figure in an expansive environment</option>
+<option>Dynamic three-quarter action pose</option>
+</select>
+</div>
+<button class="primary" type="submit">Build my prompt <span>↗</span>
+</button>
+</form>
+<div class="prompt-output">
+<div class="field-head">
+<span class="eyebrow">Your prompt / editable</span>
+<span aria-hidden="true">✳</span>
+</div>
+<label class="sr-only" for="result">Generated prompt</label>
+<textarea id="result" rows="12" spellcheck="false">
+</textarea>
+<div class="output-actions">
+<button id="copy" class="light-button">Copy prompt ↗</button>
+<a id="chatgpt" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">Open ChatGPT ↗</a>
+</div>
+<p class="small-note">Opens a new tab. Your prompt is included in the link. Review it before sharing. No AI runs on this website.</p>
+<p id="status" role="status" aria-live="polite">
+</p>
+</div>
+</div>
+<div class="presets" role="group" aria-label="Try a prompt preset">
+<span class="eyebrow">Try a seed →</span>
+<button data-seed="story">The town that remembers</button>
+<button data-seed="visual">An impossible doorway</button>
+<button data-seed="writing">Make space to experiment</button>
+</div>
+</section>
+<section id="ghost" class="ghost section">
+<div class="ghost-art" role="img" aria-label="Original atmospheric concept art of a solitary figure in a rain-soaked fictional city">
+<span class="ghost-label">SOME PLACES<br>KEEP YOU.</span>
+</div>
+<div class="ghost-copy">
+<p class="eyebrow">03 / The Archives</p>
+<h2>GHOST<br>
+<i>HAVEN.</i>
+</h2>
+<p class="lead">Every town has its ghosts.<br>This one leaves the door open.</p>
+<p>Step into a story space built around memory, mystery and the things a place refuses to forget.</p>
+<div class="archive-actions">
+<button class="light-button" data-read="ghost">Story fragment ↗</button>
+<button class="light-button" data-read="dossier">Character dossier ↗</button>
+</div>
+<p class="small-note">Illustrative story excerpt created for this website. Not established Ghost Haven canon.</p>
+</div>
+</section>
+<section id="journal" class="section journal">
+<div class="section-head">
+<p class="eyebrow">04 / The Unfiltered Mind</p>
+<h2>Notes from<br>the <i>margins.</i>
+</h2>
+<p>Thoughts on making things.<br>And making room for them.</p>
+</div>
+<button class="journal-row" data-read="strange">
+<span>01 / Creative practice</span>
+<h3>Leave room for the strange.</h3>
+<span>Read sample ↗</span>
+</button>
+<button class="journal-row" data-read="tools">
+<span>02 / Tools & process</span>
+<h3>A tool is a beginning.</h3>
+<span>Read sample ↗</span>
+</button>
+<p class="small-note">Sample editorial copy for the website, ready to replace with your published writing.</p>
+</section>
+<section id="about" class="section about">
+<p class="eyebrow">05 / Behind the studio</p>
+<div>
+<h2>One name.<br>Many ways<br>to <i>make.</i>
+</h2>
+<p class="lead">Vuja Tsoaela is the signature connecting this studio's visual experiments, writing, story worlds and useful creative tools.</p>
+<p>Follow a thread. Try a prompt. Read a little. This space is built for curiosity.</p>
+<a class="text-link" href="#work">Explore the collection ↗</a>
+</div>
+<div class="signature" aria-label="Vuja Tsoaela signature">Vuja<br>Tsoaela<span>✳</span>
+</div>
+</section>
+</main>
+<footer>
+<a class="brand" href="#home">VUJA<br>TSOAELA</a>
+<p>Stories. Systems. Experiments.<br>
+<span>© <span id="year">2026</span> Vuja Tsoaela</span>
+</p>
+<a href="#home">Back to top ↑</a>
+</footer>
+<dialog id="reader" aria-labelledby="reader-title">
+<button id="close-reader" aria-label="Close reading view">Close ×</button>
+<p class="eyebrow" id="reader-category">
+</p>
+<h2 id="reader-title">
+</h2>
+<div id="reader-body">
+</div>
+<p class="reader-signature">Vuja Tsoaela</p>
+</dialog>
+<noscript>
+<p class="no-js">Enable JavaScript for the prompt builder, filters and reading view. The studio navigation and visual study work without it.</p>
+</noscript>
+</body>
+</html>

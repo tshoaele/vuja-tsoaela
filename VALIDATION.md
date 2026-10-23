@@ -1,7 +1,9 @@
-# Validation
+# Validation of the multidisciplinary update
 
-Passed JavaScript syntax validation and automated checks for asset references, unique HTML IDs, internal navigation targets, all prompt presets, custom prompt generation, URL encoding, copy success and manual fallback, collection filters, mobile menu state and all three reading views. Interaction checks used a simulated document, not a rendered browser.
+JavaScript syntax, local asset references, unique IDs and internal anchors passed. Automated checks covered prompt presets, custom prompts, copy fallback, menu state and sample readers.
 
-Responsive CSS includes mobile and tablet breakpoints and reduced-motion handling. Rendered layout, touch interactions, colour contrast measurements and native browser dialog behaviour still need a browser check. A local preview server started, but browser and HTTP inspection connections timed out in this environment. No successful rendered preview is claimed.
+GitHub Pages published the redesign successfully. Live browser checks confirmed 4 Art & Prompts products, 5 Apps & Planners products and 1 Poetry & Writing product. Category panels apply the appropriate filter, the live count updates correctly, and all ten published Gumroad covers load. The three WordPress article links use verified blog addresses.
 
-Before publishing, open index.html in a browser and check at 390px, 768px and desktop widths. Tab through the menu and prompt fields, open a reading view and close with Escape, copy a prompt and confirm the new ChatGPT tab receives it. GitHub deployment has not been performed.
+The browser screenshot service timed out. The responsive viewport override did not change the reported browser width, so mobile/tablet rendered layout and touch behaviour remain unverified. Responsive CSS is included, but this is not a claim of complete visual QA.
+
+About wording remains unchanged. Ghost Haven still contains clearly labelled demonstration material. No image carousel or social integration was added.

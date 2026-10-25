@@ -42,3 +42,5 @@ No installable PWA or offline caching is included. This avoids stale cached draf
 
 
 Update 25 October 2026: Creation Lab and the prompt builder have been removed at the owner’s request. The collections, artwork, archive, blog and contact links remain.
+
+Ghost Haven website preview: now represents an original novel in development, with a new standalone teaser and working Vuja profile. The private Assassin’s Creed fan manuscript is separate and is not published here. No legal clearance guarantee is made.

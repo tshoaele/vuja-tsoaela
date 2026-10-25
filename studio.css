@@ -6,12 +6,12 @@
 .section-head>.eyebrow,.about>.eyebrow,.connect-intro>.eyebrow{border-top:3px solid var(--studio-red);padding-top:12px;max-width:190px}
 .filters{gap:0;border-bottom:2px solid var(--studio-black);margin:30px 0 18px}
 .filters button{border:0;border-radius:0;background:transparent;min-height:44px;padding:12px 18px;font:11px/1.3 'Courier New',monospace;text-transform:uppercase;letter-spacing:.6px}
-.filters button.active,.filters button:hover{background:var(--studio-black);color:#e8e1d5}
+.filters button.active,.filters button:hover{background:var(--studio-black);color:#d5d7d4}
 .filters button:focus-visible{outline-offset:-4px}
-.product-card{border:0;border-top:1px solid #847d70;background:transparent}
+.product-card{border:0;border-top:1px solid #7b877e;background:transparent}
 .product-info{padding-top:20px}
 .product-info h3{font:700 19px/1.18 Arial,Helvetica,sans-serif;letter-spacing:-.6px;overflow-wrap:anywhere}
-.product-cover{background:#d9d0bf}
+.product-cover{background:#c2c7c2}
 .product-volume{border-left:3px solid var(--studio-red);font-family:'Courier New',monospace;letter-spacing:.8px}
 .product-link{font:700 10px/1.5 'Courier New',monospace;text-transform:uppercase;letter-spacing:.5px}
 .branch-cta{font:700 11px/1.4 'Courier New',monospace;text-transform:uppercase;letter-spacing:1px;background:var(--studio-black);border-left:3px solid var(--studio-red)}
@@ -30,3 +30,10 @@
 .contact-email{font:700 clamp(14px,1.6vw,22px)/1.5 Arial,Helvetica,sans-serif;overflow-wrap:anywhere}
 @media(max-width:1000px){.signature{margin-top:30px}.signature .signature-first{font-size:90px}.product-info h3{font-size:18px}}
 @media(max-width:650px){.section-head h2,.about h2,.connect-section h2{font-size:46px}.filters button{padding:12px 10px;font-size:10px}.product-info h3{font-size:20px}.signature{margin:36px 0 0;max-width:200px}.signature .signature-first{font-size:85px}.signature .signature-last{font-size:14px}.hero-signature{font-size:11px}.blog-entry{padding-top:40px}.blog-entry h3{font-size:28px}.contact-email{font-size:18px}.social-name{font-size:18px}}
+
+/* Readable contact details, with generous touch targets on every screen. */
+.social-grid a{padding:24px 32px 24px 0;min-height:100px}
+.social-name{font-size:22px;line-height:1.3}
+.social-handle{font:400 16px/1.6 Arial,Helvetica,sans-serif;color:#354239;letter-spacing:.1px;margin-top:8px;overflow-wrap:anywhere}
+.social-arrow{top:28px;font-size:23px}
+@media(max-width:650px){.social-grid{grid-template-columns:1fr;gap:0;margin-top:28px}.social-grid a{padding:20px 34px 20px 0;min-height:96px}.social-name{font-size:22px}.social-handle{font-size:16px}.social-arrow{top:25px}}

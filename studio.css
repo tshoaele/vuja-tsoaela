@@ -1,0 +1,32 @@
+/* Vuja's studio identity: hard edges, print rules and a typographic signature. */
+:root{--studio-black:#101411;--studio-red:#aa302f}
+.section-head h2,.about h2,.connect-section h2{font-family:Impact,'Arial Narrow',Arial,sans-serif;font-weight:400;font-size:clamp(42px,4.5vw,66px);line-height:.96;letter-spacing:-.025em;text-transform:uppercase}
+.section-head h2 i,.about h2 i,.connect-section h2 i{font:inherit;letter-spacing:inherit;color:var(--studio-red)}
+.eyebrow{letter-spacing:1.6px}
+.section-head>.eyebrow,.about>.eyebrow,.connect-intro>.eyebrow{border-top:3px solid var(--studio-red);padding-top:12px;max-width:190px}
+.filters{gap:0;border-bottom:2px solid var(--studio-black);margin:30px 0 18px}
+.filters button{border:0;border-radius:0;background:transparent;min-height:44px;padding:12px 18px;font:11px/1.3 'Courier New',monospace;text-transform:uppercase;letter-spacing:.6px}
+.filters button.active,.filters button:hover{background:var(--studio-black);color:#e8e1d5}
+.filters button:focus-visible{outline-offset:-4px}
+.product-card{border:0;border-top:1px solid #847d70;background:transparent}
+.product-info{padding-top:20px}
+.product-info h3{font:700 19px/1.18 Arial,Helvetica,sans-serif;letter-spacing:-.6px;overflow-wrap:anywhere}
+.product-cover{background:#d9d0bf}
+.product-volume{border-left:3px solid var(--studio-red);font-family:'Courier New',monospace;letter-spacing:.8px}
+.product-link{font:700 10px/1.5 'Courier New',monospace;text-transform:uppercase;letter-spacing:.5px}
+.branch-cta{font:700 11px/1.4 'Courier New',monospace;text-transform:uppercase;letter-spacing:1px;background:var(--studio-black);border-left:3px solid var(--studio-red)}
+.hero-content>p:not(.eyebrow){font:14px/1.6 Arial,Helvetica,sans-serif;letter-spacing:.25px}
+.hero-signature{font:700 13px/1.1 'Courier New',monospace;letter-spacing:2px;text-transform:uppercase;transform:none;padding:10px 12px;border-left:3px solid var(--studio-red);background:#101411cf}
+.blog-grid{counter-reset:entry;border-top:2px solid var(--studio-black)}
+.blog-entry{position:relative;padding-top:40px}
+.blog-entry:before{counter-increment:entry;content:'0' counter(entry);position:absolute;top:12px;left:0;font:11px 'Courier New',monospace;color:var(--studio-red)}
+.blog-entry h3{font:700 clamp(23px,2.2vw,31px)/1.12 Arial,Helvetica,sans-serif;letter-spacing:-.8px}
+.blog-entry>p:not(.eyebrow){font:15px/1.7 Georgia,serif}
+.blog-entry .text-link{font:700 10px/1.5 'Courier New',monospace;text-transform:uppercase;letter-spacing:.6px}
+.signature{transform:none;align-self:center;display:block;font-style:normal;max-width:230px;padding-top:16px;border-top:5px solid var(--studio-red)}
+.signature .signature-first{display:block;font:clamp(64px,7vw,110px)/.82 Impact,'Arial Narrow',sans-serif;letter-spacing:-3px;color:var(--studio-black);margin:0}
+.signature .signature-last{display:block;font:700 15px/1.3 'Courier New',monospace;letter-spacing:3px;color:var(--studio-black);margin:14px 0 0}
+.social-name{font:700 18px/1.3 Arial,Helvetica,sans-serif;letter-spacing:-.4px}
+.contact-email{font:700 clamp(14px,1.6vw,22px)/1.5 Arial,Helvetica,sans-serif;overflow-wrap:anywhere}
+@media(max-width:1000px){.signature{margin-top:30px}.signature .signature-first{font-size:90px}.product-info h3{font-size:18px}}
+@media(max-width:650px){.section-head h2,.about h2,.connect-section h2{font-size:46px}.filters button{padding:12px 10px;font-size:10px}.product-info h3{font-size:20px}.signature{margin:36px 0 0;max-width:200px}.signature .signature-first{font-size:85px}.signature .signature-last{font-size:14px}.hero-signature{font-size:11px}.blog-entry{padding-top:40px}.blog-entry h3{font-size:28px}.contact-email{font-size:18px}.social-name{font-size:18px}}

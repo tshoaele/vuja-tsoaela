@@ -44,3 +44,12 @@ No installable PWA or offline caching is included. This avoids stale cached draf
 Update 25 October 2026: Creation Lab and the prompt builder have been removed at the owner’s request. The collections, artwork, archive, blog and contact links remain.
 
 Ghost Haven website preview: now represents an original novel in development, with a new standalone teaser and working Vuja profile. The private Assassin’s Creed fan manuscript is separate and is not published here. No legal clearance guarantee is made.
+
+## Automatic content updates
+The existing Pages workflow refreshes public content daily at 06:17 South African time (04:17 UTC), on a push, or with Run workflow. Scheduled runs may be delayed. GitHub disables scheduled workflows in public repositories after 60 days without repository activity; successful content commits keep the repository active. If no source changes for that long, re-enable the workflow in Actions.
+
+The Journal shows the latest three published WordPress RSS posts with source excerpts. The Vault discovers products visible in the Gumroad storefront's initial public catalogue and refreshes all existing product links from each product page's public metadata. Existing direct links are retained even when absent from the storefront. Product removals and category corrections need a deliberate edit. Gumroad pagination or a changed storefront format can require maintenance; this is public-page extraction, not an authenticated API integration. The initial catalogue is currently fully represented by the existing ten links.
+
+No tokens, accounts, paid services, third-party feed proxies, or npm packages are required. Uses the standard Ubuntu runner in this public repository. Product prices and checkout remain on Gumroad. Existing categories are retained; new products use title-based categories and should be reviewed. Public product titles, cover art and descriptions replace hand-maintained copies; descriptions are shortened to 190 characters. Full descriptions remain on Gumroad.
+
+If either source fails validation, that section stays unchanged and the other may refresh. The workflow saves index.html before deployment, preserving the last successful content as fallback. It reports a failed refresh in Actions even if the fallback website deploys successfully. Manual edits to generated product cards and blog cards will be overwritten on the next refresh. Layout, About, contacts and Ghost Haven are not generated.

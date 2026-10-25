@@ -39,3 +39,6 @@ Includes a skip link, semantic landmarks, labelled fields, visible keyboard focu
 The Creation Lab includes original-character controls for archetype, aesthetic, defining detail and composition. The Archives include an illustrative character dossier and story fragment. The location is Johannesburg, South Africa. Fictional concepts do not reproduce the franchise lore mentioned in the supplied notes.
 
 No installable PWA or offline caching is included. This avoids stale cached drafts and keeps deployment simple. The website is ready for static deployment; this package does not create or publish a GitHub repository.
+
+
+Update 25 October 2026: Creation Lab and the prompt builder have been removed at the owner’s request. The collections, artwork, archive, blog and contact links remain.

@@ -7,3 +7,6 @@ GitHub Pages published the redesign successfully. Live browser checks confirmed 
 The browser screenshot service timed out. The responsive viewport override did not change the reported browser width, so mobile/tablet rendered layout and touch behaviour remain unverified. Responsive CSS is included, but this is not a claim of complete visual QA.
 
 About wording remains unchanged. Ghost Haven still contains clearly labelled demonstration material. No image carousel or social integration was added.
+
+
+25 October 2026: Removed Creation Lab and its JavaScript. Checked syntax, unique IDs, surviving script targets, internal anchors, ten collection entries and email contact.

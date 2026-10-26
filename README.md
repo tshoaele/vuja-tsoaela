@@ -53,3 +53,9 @@ The Journal shows the latest three published WordPress RSS posts with source exc
 No tokens, accounts, paid services, third-party feed proxies, or npm packages are required. Uses the standard Ubuntu runner in this public repository. Product prices and checkout remain on Gumroad. Existing categories are retained; new products use title-based categories and should be reviewed. Public product titles, cover art and descriptions replace hand-maintained copies; descriptions are shortened to 190 characters. Full descriptions remain on Gumroad.
 
 If either source fails validation, that section stays unchanged and the other may refresh. The workflow saves index.html before deployment, preserving the last successful content as fallback. It reports a failed refresh in Actions even if the fallback website deploys successfully. Manual edits to generated product cards and blog cards will be overwritten on the next refresh. Layout, About, contacts and Ghost Haven are not generated.
+
+Identity refinement, 25 October 2026: studio.css supplies square filter tabs, condensed section headings, sans-serif product titles and a VUJA TSOAELA typographic signature. Starburst removed. Body copy remains readable; artwork, links and sync-generated content retained.
+
+Palette and contact refinement: main surface cool stone #D5D7D4 with near-black and crimson retained. Social handles 16px sans serif, platform names 22px, stronger contrast, single-column mobile contact list.
+
+Selected Work gallery: six owner-selected-by-delegation pieces, native dialog with previous/next and arrow-key navigation, Escape/Close, focus return, direct image links without JavaScript. gallery.css and gallery.js are independent of the daily product/blog refresh. Compressed gallery files total approximately 1.6 MB; thumbnails load lazily and larger images load on request.

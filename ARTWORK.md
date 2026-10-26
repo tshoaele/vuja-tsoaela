@@ -13,3 +13,5 @@ Prompt: Original wide cinematic anime-inspired editorial illustration for Vuja T
 ## assets/ghost-city.png
 
 Prompt: Original widescreen anime-inspired environmental concept illustration. A solitary adult in a weathered long coat seen from behind in an immense rain-soaked fictional city of stepped stone alleys, timber towers and narrow bridges. Crimson leaves, distant fog and a few warm window lights. Gritty ink and painterly texture, charcoal, desaturated green-grey and restrained crimson. Figure on the right, shadowed space on the left for live typography. No franchise symbols, logos or recognizable copyrighted characters.
+
+26 October 2026: Selected Work uses six owner-supplied images from Downloads/AI folder: Cyberpunk Rebel Profile_ Born in Africa; Rituals of the water shaman; Cinematic Black-and-White Portrait; Creative Crew Street Style; South African Weekly Meal Planner Collection-1; no-surprise-checkout-cover. WebP derivatives only, 640px thumbnails and up to 1600px larger views, no changes to originals. Captions describe the visible work, not commercial availability or fictional canon.
